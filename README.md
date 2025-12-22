@@ -1,12 +1,12 @@
 # NBA Player Statistics Analyzer
 
-A powerful web-based application for analyzing and visualizing NBA player statistics. Built with Python, Streamlit, and Pandas, this tool enables sports analysts, fans, and researchers to explore player performance data through interactive filtering, sorting, and comparison features.
+A web-based application for analyzing and visualizing NBA player statistics. Built with Python, Streamlit, and Pandas, this tool enables sports analysts, fans, and researchers to explore player performance data through interactive filtering, sorting, and comparison features.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.49.1-red.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.1.4-green.svg)
 
-## 🏀 Features
+## Features
 
 ### Data Processing
 - **CSV Upload**: Import NBA player statistics from CSV files
@@ -32,7 +32,7 @@ A powerful web-based application for analyzing and visualizing NBA player statis
 - **CSV Export**: Download filtered and sorted results for further analysis
 - **Dynamic File Naming**: Automatically generated filenames based on selected parameters
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - Streamlit 1.49.1
@@ -40,7 +40,7 @@ A powerful web-based application for analyzing and visualizing NBA player statis
 - Matplotlib 3.9.0
 - openpyxl
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -60,7 +60,7 @@ streamlit run app.py
 
 The app will automatically open in your default web browser at `http://localhost:8501`
 
-## 💻 Usage
+## Usage
 
 ### Basic Workflow
 
@@ -101,14 +101,14 @@ Your CSV file should include these standard NBA statistics columns:
 - `MP`: Minutes played
 - Statistical columns: `FG%`, `3P%`, `FT%`, `ORB`, `DRB`, `AST`, `STL`, `BLK`, `TOV`, `PTS`, etc.
 
-## 📊 Sample Data
+## Sample Data
 
 You can find NBA player statistics from sources like:
 - [Basketball Reference](https://www.basketball-reference.com/)
 - [NBA Stats](https://www.nba.com/stats/)
 - [Kaggle NBA Datasets](https://www.kaggle.com/datasets)
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Architecture
 - **Frontend**: Streamlit for interactive web interface
@@ -122,14 +122,7 @@ You can find NBA player statistics from sources like:
 - Sorting algorithms for player rankings
 - Statistical calculations for summary metrics
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## 📝 Future Enhancements
+## Future Enhancements
 
 Potential features for future versions:
 - [ ] Advanced statistics (PER, TS%, Win Shares)
@@ -140,12 +133,10 @@ Potential features for future versions:
 - [ ] Database integration for larger datasets
 
 
-## 👤 Author
+## Author
 
 **Ethan Foster**
 - GitHub: [@EFoster13](https://github.com/EFoster13)
-
-## 🙏 Acknowledgments
 
 - NBA for providing comprehensive player statistics
 - Streamlit team for the excellent web framework
