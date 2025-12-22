@@ -181,7 +181,7 @@ if uploaded_file is not None:
     # Download button for results
     csv = top_players_display.to_csv(index=False)
     st.download_button(
-        label="📥 Download Results as CSV",
+        label="Download Results as CSV",
         data=csv,
         file_name=f"top_{top_n}_players_by_{selected_metric}.csv",
         mime="text/csv"
@@ -237,4 +237,4 @@ if uploaded_file is not None:
                 st.metric(col, f"{p2_data[col]:.2f}")
 
 else:
-    st.info("👆 Upload a CSV file to get started")
+    st.info("Upload a CSV file to get started")
