@@ -138,9 +138,4 @@ Potential features for future versions:
 **Ethan Foster**
 - GitHub: [@EFoster13](https://github.com/EFoster13)
 
-- NBA for providing comprehensive player statistics
-- Streamlit team for the excellent web framework
-- Python data science community
-
-
 
